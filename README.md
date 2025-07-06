@@ -4,13 +4,13 @@ This project predicts **multiple water quality parameters** using machine learni
 
 ---
 
-## 🌍 Problem Statement
+## Problem Statement
 
 Access to clean water is a global priority. Traditional monitoring techniques are often manual, expensive, and time-consuming. This project aims to automate the **prediction of key water quality indicators** using real-world datasets and machine learning to support early pollution detection and proactive environmental management.
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Python 3.12**
 - **Pandas, NumPy** – Data preprocessing and manipulation
@@ -20,7 +20,7 @@ Access to clean water is a global priority. Traditional monitoring techniques ar
 
 ---
 
-## 📊 Target Parameters
+## Target Parameters
 
 The trained model predicts the following water quality indicators:
 
@@ -35,7 +35,7 @@ The trained model predicts the following water quality indicators:
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 
 - **Model**: `MultiOutputRegressor(RandomForestRegressor())`
 - **Input**: Preprocessed chemical and physical features
@@ -43,7 +43,7 @@ The trained model predicts the following water quality indicators:
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 Model performance was evaluated using:
 
@@ -54,7 +54,7 @@ The model showed reliable performance across all predicted features.
 
 ---
 
-## 📁 Trained Model Access
+## Trained Model Access
 
 You can download the trained model file from the link below:
 
